@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-29T13:29:33 IST" name="OpenCartSuite" finished-at="2023-12-29T13:29:52 IST" duration-ms="19179">
+    <groups>
+      <group name="Master">
+        <method signature="TC_001_AccountRegistrationTest.Account_Reg()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@402bba4f]" name="Account_Reg" class="testCases.TC_001_AccountRegistrationTest"/>
+      </group> <!-- Master -->
+      <group name="Regression">
+        <method signature="TC_001_AccountRegistrationTest.Account_Reg()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@402bba4f]" name="Account_Reg" class="testCases.TC_001_AccountRegistrationTest"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2023-12-29T13:29:33 IST" name="Chrome" finished-at="2023-12-29T13:29:52 IST" duration-ms="19179">
+      <class name="testCases.TC_001_AccountRegistrationTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistrationTest@402bba4f]" started-at="2023-12-29T13:29:34 IST" name="setup" finished-at="2023-12-29T13:29:44 IST" duration-ms="10330" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Account_Reg()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@402bba4f]" started-at="2023-12-29T13:29:44 IST" name="Account_Reg" finished-at="2023-12-29T13:29:52 IST" duration-ms="7798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Account_Reg -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@402bba4f]" started-at="2023-12-29T13:29:52 IST" name="teardown" finished-at="2023-12-29T13:29:52 IST" duration-ms="546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC_001_AccountRegistrationTest -->
+    </test> <!-- Chrome -->
+  </suite> <!-- OpenCartSuite -->
+</testng-results>
